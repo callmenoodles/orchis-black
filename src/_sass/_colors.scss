@@ -89,14 +89,14 @@
 
   @if ($blackness == 'true') {
     @if ($type == 'e') { @return $black; }
-    @if ($type == 'f') { @return $grey-950; }
-    @if ($type == 'g') { @return $grey-900; }
-    @if ($type == 'h') { @return $grey-850; }
+    @if ($type == 'f') { @return $black; }
+    @if ($type == 'g') { @return $black; }
+    @if ($type == 'h') { @return $black; }
   } @else {
-    @if ($type == 'e') { @return $grey-800; }
-    @if ($type == 'f') { @return $grey-750; }
-    @if ($type == 'g') { @return $grey-700; }
-    @if ($type == 'h') { @return $grey-650; }
+    @if ($type == 'e') { @return $black; }
+    @if ($type == 'f') { @return $black; }
+    @if ($type == 'g') { @return $black; }
+    @if ($type == 'h') { @return $black; }
   }
 }
 
